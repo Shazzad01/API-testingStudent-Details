@@ -1,0 +1,139 @@
+{
+	"id": "59e8b2c8-9a22-4e47-8cae-313ffd94fd1d",
+	"name": "Homework",
+	"timestamp": "2023-04-13T13:42:23.799Z",
+	"collection_id": "26861695-1c5fd166-5a3a-4911-8d78-79852d81f2a1",
+	"folder_id": 0,
+	"environment_id": "26861695-bddbae0e-a3ce-4fc9-8d70-10abdfc2948d",
+	"totalPass": 9,
+	"delay": "1",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-04-13T13:42:21.192Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "4b94a99b-3ae3-42b5-977b-6db6d70c5622",
+			"name": "CreateStudent",
+			"url": "https://thetestingworldapi.com/api/studentsDetails",
+			"time": 74,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Creat": true
+			},
+			"testPassFailCounts": {
+				"Creat": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				73,
+				74,
+				74
+			],
+			"allTests": [
+				{
+					"Creat": true
+				},
+				{
+					"Creat": true
+				},
+				{
+					"Creat": true
+				}
+			]
+		},
+		{
+			"id": "a5a5d80c-debd-4d3a-8520-a372c4aa80a1",
+			"name": "Get Student",
+			"url": "https://thetestingworldapi.com/api/studentsDetails",
+			"time": 77,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				76,
+				81,
+				77
+			],
+			"allTests": [
+				{
+					"Body matches string": true
+				},
+				{
+					"Body matches string": true
+				},
+				{
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "b0ee12bb-523a-4e66-b553-6dd5509216cd",
+			"name": "Get Specific Student",
+			"url": "https://thetestingworldapi.com/api/studentsDetails/7454646",
+			"time": 76,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				73,
+				73,
+				76
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true
+				},
+				{
+					"Response time is less than 200ms": true
+				},
+				{
+					"Response time is less than 200ms": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 677,
+	"collection": {
+		"requests": [
+			{
+				"id": "4b94a99b-3ae3-42b5-977b-6db6d70c5622",
+				"method": "POST"
+			},
+			{
+				"id": "a5a5d80c-debd-4d3a-8520-a372c4aa80a1",
+				"method": "GET"
+			},
+			{
+				"id": "b0ee12bb-523a-4e66-b553-6dd5509216cd",
+				"method": "GET"
+			}
+		]
+	}
+}
